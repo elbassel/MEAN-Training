@@ -1,6 +1,9 @@
 var calculator = require('./calculator');
+
 var stdin = process.openStdin();
+
 printMsg();
+
 stdin.addListener("data", function(data) {
     // note:  d is an object, and when converted to a string it will
     // end with a linefeed.  so we (rather crudely) account for that
