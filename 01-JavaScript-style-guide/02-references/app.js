@@ -1,12 +1,18 @@
 
+
 function testConstLet(){
+  var num;
+  num
   {
-    let a = 1;
+    var a = 1;
     const b = 1;
   }
   console.log(a); // ReferenceError
   console.log("b = " + b); // ReferenceError
-
+  
 }
 
 testConstLet();
+
+1 == true;
+1 === true;
