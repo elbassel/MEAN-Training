@@ -1,5 +1,5 @@
 
-var greeting = require('./greetings');
+const greeting = require('./greetings');
 
 greeting.sayHello();
 greeting.sayGoodEvening();

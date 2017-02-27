@@ -9,7 +9,7 @@ function testConstLet(){
   }
   console.log(a); // ReferenceError
   console.log("b = " + b); // ReferenceError
-  
+    
 }
 
 testConstLet();
