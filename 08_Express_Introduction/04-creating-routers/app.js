@@ -10,6 +10,7 @@ app.get('/',function(req,res){
   res.end('App is running');
 });
 
+
 usersCtrl.get('/',function(req,res){
   res.json(usersJsons);
 });
@@ -19,9 +20,10 @@ postCtrl.get('/', function(req,res){
 });
 
 
-
 app.use('/users', usersCtrl);
 app.use('/posts', postCtrl);
+
+
 
 
 app.listen(portNumber, function(){

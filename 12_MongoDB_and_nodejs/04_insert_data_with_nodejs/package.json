@@ -1,5 +1,5 @@
 {
-  "name": "03-uris",
+  "name": "04_insert_data_with_nodejs",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -7,9 +7,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "file-system": "^2.2.2",
-    "url": "^0.11.0"
-  }
+  "license": "ISC"
 }

@@ -30,11 +30,6 @@ const usersJsons = require('../users.json');
     res.json(user);
   });
 
-  router.post('/bassel',function(req,res){
-    let user = req.body;
-    console.log(req.body + " bassel ");
-    res.json("hello");
-  });
 
 
 

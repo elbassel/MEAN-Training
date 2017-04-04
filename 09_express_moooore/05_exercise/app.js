@@ -3,8 +3,8 @@ const app = express();
 const portNumber = 3000;
 const integrator = require('./integrator');
 module.exports.integrator = integrator;
-  var bodyParser = require('body-parser');
-  app.use(bodyParser.json());
+var bodyParser = require('body-parser');
+app.use(bodyParser.json());
 
 
 

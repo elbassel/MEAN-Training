@@ -1,5 +1,5 @@
 {
-  "name": "03-uris",
+  "name": "03_connecting_to_mongodb",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "file-system": "^2.2.2",
-    "url": "^0.11.0"
+    "mongodb": "^2.2.25"
   }
 }

@@ -1,4 +1,4 @@
-const fs = require('fs');
+
 const http = require('http');
 const url = require('url');
 const portNumber = 3000;
@@ -12,7 +12,7 @@ function handleRequests(req,res){
 
   var url_parts = url.parse(req.url, true);
   var query = url_parts.query;
-  
+
   res.writeHead(200,{'content-type':'text/html'});
 
   if(url_parts.pathname === '/home'){
@@ -20,5 +20,7 @@ function handleRequests(req,res){
   } else if(url_parts.pathname === '/hello'){
     const name = query.name;
     res.end('<h3>Greeting</h3><h2>Hello ' + name + '</h2>');
+  }else{
+    res.end('<h3>Root</h2>');
   }
 }

@@ -8,6 +8,7 @@ const getMoneyRates = function(currencies,res){
     }
     res.json(err);
   });
+
 };
 
 exports.getMoneyRates = getMoneyRates;
